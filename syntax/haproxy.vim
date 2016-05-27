@@ -1,10 +1,10 @@
 " Vim syntax file
-" Language:    HAproxy
-" Maintainer:  Bruno Michel <brmichel@free.fr>
-" Last Change: Mar 30, 2007
-" Version:     0.3
-" URL:         http://haproxy.1wt.eu/
-" URL:         http://vim.sourceforge.net/scripts/script.php?script_id=1845
+" Language:     HAproxy
+" Maintainer:   Paolo Gavocanov (gavocanov@gmail.com)
+" ref URL:      http://haproxy.1wt.eu/
+" ref URL:      http://vim.sourceforge.net/scripts/script.php?script_id=1845
+" Forked from:  https://github.com/sclo/haproxy.vim
+" URL:          https://github.com/gavocanov/haproxy.vim
 
 " It is suggested to add the following line to $HOME/.vimrc :
 "    au BufRead,BufNewFile haproxy* set ft=haproxy
@@ -49,6 +49,10 @@ syn keyword hapParam     maxconn monitor-uri
 syn keyword hapParam     nbproc noepoll nopoll
 syn keyword hapParam     pidfile
 syn keyword hapParam     quiet
+syn keyword hapParam     timeout
+syn keyword hapParam     acl
+syn keyword hapParam     redirect
+syn keyword hapParam     use_backend
 syn keyword hapParam     redispatch retries
 syn keyword hapParam     reqallow  reqdel  reqdeny  reqpass  reqtarpit  skipwhite nextgroup=hapRegexp
 syn keyword hapParam     reqiallow reqidel reqideny reqipass reqitarpit skipwhite nextgroup=hapRegexp
