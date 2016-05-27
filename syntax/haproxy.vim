@@ -1,9 +1,9 @@
 " Vim syntax file
 " Language:     HAproxy
 " Maintainer:   Paolo Gavocanov (gavocanov@gmail.com)
-" ref URL:      http://haproxy.1wt.eu/
-" ref URL:      http://vim.sourceforge.net/scripts/script.php?script_id=1845
-" Forked from:  https://github.com/sclo/haproxy.vim
+" URL:          http://haproxy.1wt.eu/
+" URL:          http://vim.sourceforge.net/scripts/script.php?script_id=1845
+" URL:          https://github.com/sclo/haproxy.vim
 " URL:          https://github.com/gavocanov/haproxy.vim
 
 " It is suggested to add the following line to $HOME/.vimrc :
@@ -165,4 +165,4 @@ HiLink      hapSrvKey    hapOption
 delcommand HiLink
 
 let b:current_syntax = "haproxy"
-" vim: ts=8
+" vim: ts=8 ft=vim
