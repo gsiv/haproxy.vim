@@ -52,7 +52,9 @@ syn keyword hapParam     quiet
 syn keyword hapParam     timeout
 syn keyword hapParam     acl
 syn keyword hapParam     redirect
-syn keyword hapParam     use_backend
+syn keyword hapParam     ca-base crt-base ssl-default-bind-options ssl-default-bind-ciphers tune.ssl.default-dh-param
+syn keyword hapParam     use_backend default-server
+syn keyword hapParam     log-format http-check tcp-request stick-table no http-request
 syn keyword hapParam     redispatch retries
 syn keyword hapParam     reqallow  reqdel  reqdeny  reqpass  reqtarpit  skipwhite nextgroup=hapRegexp
 syn keyword hapParam     reqiallow reqidel reqideny reqipass reqitarpit skipwhite nextgroup=hapRegexp
