@@ -51,7 +51,7 @@ syn keyword hapParam     pidfile
 syn keyword hapParam     quiet
 syn keyword hapParam     timeout
 syn keyword hapParam     acl
-syn keyword hapParam     redirect
+syn keyword hapParam     redirect load-server-state-from-file server-state-file
 syn keyword hapParam     ca-base crt-base ssl-default-bind-options ssl-default-bind-ciphers tune.ssl.default-dh-param
 syn keyword hapParam     use_backend default-server
 syn keyword hapParam     log-format http-check tcp-request stick-table no http-request
