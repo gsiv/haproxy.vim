@@ -54,7 +54,7 @@ syn keyword hapParam     acl
 syn keyword hapParam     redirect load-server-state-from-file server-state-file spread-checks lua-load
 syn keyword hapParam     ca-base crt-base ssl-default-bind-options ssl-default-bind-ciphers tune
 syn keyword hapParam     use_backend default-server
-syn keyword hapParam     log-format http-check tcp-request stick-table no http-request
+syn keyword hapParam     log-format http-check tcp-request stick-table no http-request http-response
 syn keyword hapParam     redispatch retries
 syn keyword hapParam     reqallow  reqdel  reqdeny  reqpass  reqtarpit  skipwhite nextgroup=hapRegexp
 syn keyword hapParam     reqiallow reqidel reqideny reqipass reqitarpit skipwhite nextgroup=hapRegexp
